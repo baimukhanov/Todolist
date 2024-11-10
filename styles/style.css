@@ -77,7 +77,7 @@ body {
 .list-item .todo-name {
     width: calc(var(--todo-task-width) - var(--checkbox-width));
     flex-grow: 1;
-    word-break: break-all;
+    word-break: break-word;
 }
 .list-item .todo-name:focus {
     outline: none;
